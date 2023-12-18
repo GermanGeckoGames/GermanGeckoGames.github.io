@@ -11,15 +11,14 @@
       margin: 0;
       overflow: hidden;
     }
-
   </style>
 </head>
 <body>
-<video src="RPReplay_Final1702659114.mp4" height="100vh" width="100vh" preload="none" autoplay="autoplay"></video>
+  <video src="RPReplay_Final1702659114.mp4" height="100vh" width="100vh" preload="none" autoplay="autoplay"></video>
   <script>
-    setTimeout(redirect(), 20000)
-    function redirect(){
-window.location.assign("https://play0germangeckogames.pythonanywhere.com/")
+    setTimeout(redirect, 20000); // Removed parentheses from redirect()
+    function redirect() {
+      window.location.assign("https://play0germangeckogames.pythonanywhere.com/");
     }
   </script>
 </body>
